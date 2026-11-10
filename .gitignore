@@ -1,0 +1,37 @@
+# Original captures and trace archives: not for automatic public upload
+*.pcap
+*.pcapng
+*.cap
+*.pcap.gz
+*.pcapng.gz
+*.pcap.zip
+
+# Malware, downloaded objects, and binaries
+*.exe
+*.dll
+*.bin
+*.scr
+*.ps1
+*.elf
+*.dmg
+*.iso
+
+# Secrets, TLS key material, and private credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*ssl-key*
+*keylog*
+*secrets*
+
+# Local temp and editor files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+.venv/
