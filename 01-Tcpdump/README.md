@@ -31,3 +31,20 @@ A good report answers: **What did I investigate? What evidence did I inspect? Wh
 ## Data handling
 
 Do not publish original PCAPs, captured credentials, cookies, raw malware, or third-party course content unless authorization and safety have been checked. Mask sensitive values in screenshots and reports.
+
+## My Investigations
+
+### 1. Hancitor Traffic Analysis
+[View Investigation](01-Hancitor-Traffic-Analysis/README.md)
+
+Analyzed suspicious HTTP communication, identified an unusual executable request, and investigated external IP addresses using threat intelligence.
+
+### 2. SSLoad Malware Investigation
+[View Investigation](02-SSLoad-Malware-Investigation/README.md)
+
+Identified high-activity hosts, investigated HTTP communication patterns, analyzed a suspicious User-Agent, and examined potential additional payloads.
+
+### 3. Lumma Stealer Investigation
+[View Investigation](03-Lumma-Stealer-Investigation/README.md)
+
+Completed a SOC investigation challenge involving ICMP, HTTP, FTP authentication, plaintext credential exposure, and malware-related indicators.
